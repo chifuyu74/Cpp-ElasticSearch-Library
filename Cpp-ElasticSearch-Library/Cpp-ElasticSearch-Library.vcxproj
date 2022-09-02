@@ -32,8 +32,8 @@
   <ItemGroup>
     <None Include="..\.gitattributes" />
     <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
     <None Include="Docs.md" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CorePch.h" />
