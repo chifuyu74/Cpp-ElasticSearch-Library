@@ -1,0 +1,3 @@
+this folder is build output folder.
+
+SharedOutputPath folder : 중간 디렉터리(shared-intermediate-path)

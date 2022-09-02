@@ -7,10 +7,83 @@
     <Filter Include="utils">
       <UniqueIdentifier>{0fb990c2-1c8d-4446-b5ab-c6c3640ef49e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4ecb76bc-d782-4bc8-add7-51bfa27fd0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{07dccc72-64d4-4aab-bea8-1631c883c355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ElasticClient">
+      <UniqueIdentifier>{d3ca40f4-4692-4786-8f29-2af6acd6290c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>main</Filter>
+    <ClCompile Include="pch.cpp">
+      <Filter>utils</Filter>
     </ClCompile>
+    <ClCompile Include="ElasticClient.cpp">
+      <Filter>ElasticClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ElasticError.cpp">
+      <Filter>ElasticClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ElasticHost.cpp">
+      <Filter>ElasticClient</Filter>
+    </ClCompile>
+    <ClCompile Include="ElasticLogger.cpp">
+      <Filter>ElasticClient</Filter>
+    </ClCompile>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="Docs.md">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="..\.gitattributes" />
+    <None Include="..\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Templates.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpMethod.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDebug.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroRelease.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Standard.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ElasticHost.h">
+      <Filter>ElasticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ElasticClient.h">
+      <Filter>ElasticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ElasticError.h">
+      <Filter>ElasticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="ElasticLogger.h">
+      <Filter>ElasticClient</Filter>
+    </ClInclude>
+    <ClInclude Include="CorePch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
